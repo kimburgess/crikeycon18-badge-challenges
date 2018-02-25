@@ -14,4 +14,4 @@ Eventually, I found it - underneath a desk, behind some camera flight cases in t
 
 ![the camera](media/camera.jpg)
 
-That provided the 25 character string needed to access the next chapter.
+That provided the 25 character string needed to access [the next chapter](2-the-ear.md).
