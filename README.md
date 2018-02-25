@@ -6,7 +6,7 @@
 
 Over the weekend, Brisbane played host to yet another awesome [CrikeyCon](https://www.crikeycon.com/). In addition to the CTF, there was a set of sequential puzzles associated with the badge. Between some of the talks I though I'd play.
 
-These are still not complete, but here's what I was able to figure out on the day. If the server side component are republished, I'll keep diving...
+*These are still not complete, but here's what I was able to figure out on the day. If the server side components are republished, I'll keep diving...*
 
 [Chapter 0: Prologue](0-prologue.md)
 
