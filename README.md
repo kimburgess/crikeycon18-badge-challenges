@@ -14,8 +14,10 @@ Over the weekend, Brisbane played host to yet another awesome [CrikeyCon](https:
 
 [Chapter II: The Ear](2-the-ear.md)
 
-[Chapter III: The Mouth](3-the-mouth.md)
+Chapter III: The Mouth
 
-[Chapter V: The Head](5-the-head.md)
+Chapter IV: ???
 
-[Chapter VI: The Nose](6-the-nose.md)
+Chapter V: The Head
+
+Chapter VI: The Nose
