@@ -106,4 +106,4 @@ With that new knowledge in hand, it allows for the final translation to...
 
 The backend for the challenge was only accessible on site, so unfortunately I'm blocked from progressing any further for now. There was talk of it making a re-appearance though. Regardless of what happens, it was fun.
 
-Thanks to Dook, Bull, lystena and anyone else who had a hand in putting the day and brain food together.
+Thanks to Dook, Bull, lystena, aboro and anyone else who had a hand in putting the day and brain food together.
