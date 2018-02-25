@@ -45,11 +45,11 @@ Time to open up Audacity and take a look...
 
 ![waveform of signal.wav](media/waveform.png)
 
-Pretty static amplitude through. Let's take a look at the frequency content.
+Pretty static amplitude throughout. Let's take a look at the frequency content.
 
 ![spectrogram of signal.wav](media/spectrogram.png)
 
-That's better. So there's a 1500Hz carrier and some frequency modulation. There's some preamble up front then it settles into these timed pulses. Interesting.
+That's better. So there's a 1500Hz carrier and some frequency modulation. There's some preamble up front then it settles into these uniformly timed pulses. Interesting.
 
 Before going any further I started up [multimon-ng](https://tools.kali.org/wireless-attacks/multimon-ng) and checked for the other common signal types - AX.25, POCSAG, AES and ZVEI. To be honest, I wasn't sure if any of them were a match for the signal properties, but it's simple enough to just tooling and check.
 
