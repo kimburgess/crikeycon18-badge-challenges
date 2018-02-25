@@ -53,3 +53,5 @@ It's probable that the printed message may be a ciphertext (possible a [Vernam c
 At this point, I was stuck. Thankfully it looked liked everyone else was too so the organisers opted to bypass step one so people could keep rolling.
 
 ![Prologue flag page](media/prologue.png)
+
+Onwards to [part 1](1-the-eye.md).
