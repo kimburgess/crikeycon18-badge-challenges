@@ -80,7 +80,7 @@ Well it turns out that Bull has the same character set flashing across his badge
 
 All of the flags for the CTF take the form flag{xxxxx}. With those curly braces providing character positions I snapped a video of his badge and checked the first four characters against the Braille alphabet. They translated to 'flag' so theory confirmed - back to the badge.
 
-Counting up the characters doesn't provide me hope - there 33 and I'm after a 25 character string. Regardless, times running out so I find the first Braille translation site that pops up in Google and start punching away.
+Counting up the characters doesn't provide me hope - there are 33 and I'm after a 25 character string. Regardless, times running out so I find the first Braille translation site that pops up in Google and start punching away.
 
 Here's the characters from the image:
 
@@ -96,7 +96,7 @@ The next variable is the tooling - a grab another translator, which still fails 
 
 ---
 
-After the close of the CTF lystena (again, sorry if wrong name) hits me with the one bit of information I needed: Braille has a couple of shift characters - capital follows (`⠠`) and number follows (`⠼`). Guess which characters the quick and directly translators I found didn't support...
+After the close of the CTF lystena (again, sorry if wrong name) hits me with the one bit of information I needed: Braille has a couple of shift characters - capital follows (`⠠`) and number follows (`⠼`). Guess which characters the quick and dirty translators I found didn't support...
 
 With that new knowledge in hand, it allows for the final translation to...
 
