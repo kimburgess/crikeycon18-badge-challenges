@@ -51,6 +51,12 @@ Pretty static amplitude throughout. Let's take a look at the frequency content.
 
 That's better. So there's a 1500Hz carrier and some frequency modulation. There's some preamble up front then it settles into these uniformly timed pulses. Interesting.
 
+What about the spectral breakdown of the whole signal.
+
+![spectrum plot of signal.wav](media/spectrum-plot.png)
+
+Nice, so we looks like its ~3kHz of bandwidth, without any other notable noise.
+
 Before going any further I started up [multimon-ng](https://tools.kali.org/wireless-attacks/multimon-ng) and checked for the other common signal types - AX.25, POCSAG, AES and ZVEI. To be honest, I wasn't sure if any of them were a match for the signal properties, but it's simple enough to just tooling and check.
 
 After still not getting any results and at risk of diving down the wrong rabbit holes, I prodded lystena (apologies if that's the wrong name/handle - I'm really bad at matching names to faces) for a subtle hint. It was something along the lines of:
@@ -66,7 +72,11 @@ Don't delay.
 
 So two more potentially important things there - "scanning it slowly" and "don't delay".
 
-A little more Google-Fu with this new information revealed some gold: [slow-scan television](https://www.sigidwiki.com/wiki/SSTV) it matches in with all the clues and the properties of the signal. Oh, and look - there's a [nice app](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=en) in the Play store too. Thankfully, the app also has a the ability to autodetect the SSTV mode - I guess that's what's in the preamble.
+Equipped with this new information it was time for a little more Google-Fu. Boom: [slow-scan television](https://www.sigidwiki.com/wiki/SSTV). This is a signal format that allows for transmission of static images within an analogue, FM signal. The image is first split into lines, which are then split into dots. Each pixel is then allocated a frequency which modulated the carrier based on brightness.
+
+It matches in with all the clues and the properties of the signal. Oh, and look - there's a [nice app](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=en) in the Play store too. One potential complication - within SSTV, there are still a number of different modes to allow for different colour encodings and resolutions. Thankfully, the app also has a the ability to autodetect the SSTV mode - I guess that's what's in the preamble.
+
+The room was super noisy so playback through laptop speakers resulted in a pretty poor image due to interference. Being an audio geek means I tend to carry around a set of nice closed-back headphones. Using these I fashioned up a basic acoustic coupler, or more simply - I jammed my phone mic between the headphones ear pads and cranked the volume.
 
 Success!
 
