@@ -33,7 +33,7 @@ Stream size                              : 5.63 MiB (100%)
 
 Nothing special. So everything we're looking for must be in the signal itself.
 
-For an attempted quick win, I ran it through [minimodem](http://www.whence.com/minimodem/) with all the common bauds and protocols. No dice though.
+For an attempted quick win, I ran it through [minimodem](http://www.whence.com/minimodem/) with all the common bauds and protocols. No dice.
 
 There was a lot of text in that Prologue flag page though. I went back and had a read for any possible clues on encoding. Of interest was this paragraph:
 
@@ -72,7 +72,7 @@ Don't delay.
 
 So two more potentially important things there - "scanning it slowly" and "don't delay".
 
-Equipped with this new information it was time for a little more Google-Fu. Boom: [slow-scan television](https://www.sigidwiki.com/wiki/SSTV). This is a signal format that allows for transmission of static images within an analogue, FM signal. The image is first split into lines, which are then split into dots. Each pixel is then allocated a frequency which modulated the carrier based on brightness.
+Equipped with this new information it was time for a little more Google-Fu. Boom: [slow-scan television](https://www.sigidwiki.com/wiki/SSTV). This is a signal format that allows for transmission of static images within an analogue, FM signal. The image is first split into lines, which are then split into dots. Each pixel is then allocated a frequency which modulates the carrier based on brightness.
 
 It matches in with all the clues and the properties of the signal. Oh, and look - there's a [nice app](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=en) in the Play store too. One potential complication - within SSTV, there are still a number of different modes to allow for different colour encodings and resolutions. Thankfully, the app also has a the ability to autodetect the SSTV mode - I guess that's what's in the preamble.
 
@@ -102,7 +102,7 @@ Unfortunately, I get out some illegible semi-translated text.
 
 Thinking it was likely an issue with my data entry and I'm looking up Braille characters on a grid of buttons, I try it again. Still no luck.
 
-The next variable is the tooling - a grab another translator, which still fails horribly. Feeling disheartened at this point, and with the last talk about to start I opt to admit defeat and go enjoy the close of the day.
+The next variable is the tooling - a grab another translator, which still fails horribly. Feeling disheartened at this point, and with the last talk about to start I opt to admit defeat and go enjoy the final session of the day.
 
 ---
 
